@@ -1,1 +1,0 @@
-¡Hola! Me llamo Manuel, ¿cómo estás?
