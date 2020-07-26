@@ -4,7 +4,10 @@ respuesta = input("¿Te apetece crear un animal?: ")
 while respuesta.upper() != "SI" and respuesta.upper() != "NO":
     print("No entiendo lo que me has dicho")
     respuesta = input("¿Te apetece crear un animal?: ")
+
 respuesta_final = ""
+
+
 while respuesta_final.upper() != "NO":
     class animal:
         def __init__(self,nombre=None,patas=None,color=None,aspecto=None):
