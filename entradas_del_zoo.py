@@ -44,6 +44,7 @@ elif cuanta_agua > 10:
     print("Eso es mucho")
     cuanta_agua = int(input("¿Cuanta agua le quieres echar? (No más de 9)"))
 
+
 cuanta_comida = int(input("¿Cuanta comida le quieres echar? (No más de 9)"))
 if cuanta_comida < 10:
     print("Vale")
