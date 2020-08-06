@@ -22,7 +22,7 @@ class Metralleta:
                 self.durabilidad -= 0.1
             if self.durabilidad <= 0:
                 print("El arma se ha roto")
-                print("Han quedado", self.municion, "balas")
+                print("Han quedado", self.municion, " balas")
                 print("Se han alcanzado los", self.temperatura, "grados de temperatura")
             if self.municion <= 0:
                 print("El arma se ha qudado sin municion")
@@ -43,6 +43,7 @@ while aviso.upper() != "SI":
 
 arma = Metralleta(municion=n_municion)
 arma.disparar()
+registro_texto.close()
 
 
 
